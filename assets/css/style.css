@@ -85,8 +85,9 @@ header {
     background: #2980b9;
 }
 
-/* General Content Sections */
+/* General Content Sections (Centered) */
 .content-section {
+    text-align: center;
     max-width: 800px;
     margin: 4rem auto;
     background: #fff;
@@ -98,6 +99,11 @@ header {
 .content-section h1 {
     margin-bottom: 1rem;
     color: #2c3e50;
+}
+
+.content-section p {
+    margin-bottom: 1rem;
+    color: #555;
 }
 
 /* Footer */
